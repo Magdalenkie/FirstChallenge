@@ -22,9 +22,9 @@ public class FirstChallenge {
         try{
             result = firstChallenge.divide(3, 0);
         } catch (ArithmeticException e){
-            System.out.println("Exception occurred: " + e);
+            System.out.println("Exception occurred: " + e + "Do not divide by 0!");
         } finally {
-            System.out.println(result);
+            System.out.println("Result is: " + result);
         }
 
     }
